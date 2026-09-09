@@ -30,37 +30,37 @@ int main(){
     
     } else {
     
-        printf("\nDivisao indefinida, tentativa de dividisao por 0");
+        printf("\nDivisao indefinida, tentativa de divisao por 0\n");
 
     }
 
     if (a > b) {
 
-        printf("\nO primeiro numero es %i portanto ele es maior que o segundo %i", a, b);
+        printf("\nO primeiro numero e %i, portanto ele e maior que o segundo %i", a, b);
 
     } else {
 
-        printf("\nO segudo numero es %i portanto ele es maior que o primeiro %i", b, a);
+        printf("\nO segundo numero e %i, portanto ele e maior que o primeiro %i\n", b, a);
 
     }
 
     if ( b > c) {
 
-        printf("\nO segundo numero es %i portanto ele es maior que o terceiro %i\n", b, c);
+        printf("O segundo numero e %i, portanto ele e maior que o terceiro %i\n", b, c);
 
     } else {
 
-        printf("\nO terceiro numero es %i portanto ele es maior que o segudo %i\n", c, b);
+        printf("O terceiro numero e %i, portanto ele e maior que o segundo %i\n", c, b);
 
     }
 
     if (a > 0 && b % 2 == 0) {
 
-        printf("\nO primeiro numero es %i es positivo e o segundo %i es par.\n", a, b);
+        printf("O primeiro numero %i e positivo e o segundo %i e par.\n\n", a, b);
 
     } else {
 
-        printf("As condicoes logicas nao forma atendidas");
+        printf("As condicoes logicas nao foram atendidas\n\n");
 
     }
 
